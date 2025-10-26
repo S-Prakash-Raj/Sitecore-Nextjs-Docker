@@ -13,7 +13,6 @@
     "language": "en",
     "templates": [
       "nextjs",
-      "nextjs-styleguide-tracking",
       "nextjs-sxa",
       "nextjs-multisite"
     ]

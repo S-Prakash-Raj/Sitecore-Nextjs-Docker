@@ -37,7 +37,7 @@ Function Add-JssProject {
       "--appName", $jssProjectName
     )
     # Both of these values are replaced by parameters from template.json
-    $jssCreateParams = "--templates  nextjs,nextjs-styleguide-tracking,nextjs-sxa,nextjs-multisite"
+    $jssCreateParams = "--templates  nextjs,nextjs-sxa,nextjs-multisite"
     $createArgs += $jssCreateParams.Split(' ')
     npx @createArgs
 

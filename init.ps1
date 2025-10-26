@@ -22,7 +22,7 @@ Param (
         HelpMessage = "Sets the instance topology",
         ParameterSetName = "env-init")]
     [ValidateSet("xp0","xp1","xm1")]
-    [string]$Topology = "xp0"
+    [string]$Topology = "xp1"
 )
 
 $topologyArray = "xp0", "xp1", "xm1";
