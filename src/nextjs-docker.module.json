@@ -1,0 +1,24 @@
+{
+    "namespace": "nextjs-docker",
+    "references": [ "InitItems" ],
+    "items": {
+        "includes": [
+            {
+                "name": "layouts",
+                "path": "/sitecore/layout/Layouts/Project/nextjs-docker"
+            },
+            {
+                "name": "placeholders",
+                "path": "/sitecore/layout/Placeholder Settings/Project/nextjs-docker"
+            },
+            {
+                "name": "renderings",
+                "path": "/sitecore/layout/Renderings/Project/nextjs-docker"
+            },
+            {
+                "name": "templates",
+                "path": "/sitecore/templates/Project/nextjs-docker"
+            }
+        ]
+    }
+}
