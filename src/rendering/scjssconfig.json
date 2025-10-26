@@ -1,0 +1,9 @@
+{
+  "sitecore": {
+    "instancePath": "..\\..\\docker\\deploy\\platform\\",
+    "apiKey": "77C1884D-AC95-4DAF-B45E-6F72F12264D2",
+    "deploySecret": "00A2F62C3C9D4BFC84B14EFD0DAF8EEF",
+    "deployUrl": "https://cm.nextjs_docker.localhost/sitecore/api/jss/import",
+    "layoutServiceHost": "https://cm.nextjs_docker.localhost"
+  }
+}
