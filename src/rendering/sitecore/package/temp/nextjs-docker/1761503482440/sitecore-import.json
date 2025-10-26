@@ -1,0 +1,274 @@
+{
+  "templates": [
+    {
+      "name": "App Route",
+      "displayName": "App Route",
+      "fields": [
+        {
+          "name": "pageTitle",
+          "displayName": "Page Title",
+          "section": "Page Metadata",
+          "type": "Single-Line Text"
+        }
+      ],
+      "insertOptions": [
+        "App Route"
+      ],
+      "route": false,
+      "defaultRoute": true
+    },
+    {
+      "name": "SitecoreSampleComponent",
+      "icon": "Office/16x16/document_tag.png",
+      "fields": [
+        {
+          "name": "Title",
+          "type": "Single-Line Text"
+        },
+        {
+          "name": "Description",
+          "type": "Rich Text"
+        },
+        {
+          "name": "Image",
+          "type": "Image"
+        },
+        {
+          "name": "CtaLink",
+          "type": "General Link"
+        },
+        {
+          "name": "PublishedDate",
+          "type": "Datetime"
+        },
+        {
+          "name": "ShowBadge",
+          "type": "Checkbox"
+        },
+        {
+          "name": "Tags",
+          "type": "Treelist"
+        },
+        {
+          "name": "Category",
+          "type": "Single-Line Text"
+        }
+      ]
+    },
+    {
+      "name": "POCcomponentSitecoreTwo",
+      "icon": "Office/16x16/document_tag.png",
+      "fields": [
+        {
+          "name": "Title",
+          "type": "Single-Line Text"
+        },
+        {
+          "name": "Description",
+          "type": "Rich Text"
+        },
+        {
+          "name": "Image",
+          "type": "Image"
+        },
+        {
+          "name": "CtaLink",
+          "type": "General Link"
+        },
+        {
+          "name": "PublishedDate",
+          "type": "Datetime"
+        },
+        {
+          "name": "ShowBadge",
+          "type": "Checkbox"
+        },
+        {
+          "name": "Tags",
+          "type": "Treelist"
+        },
+        {
+          "name": "Category",
+          "type": "Single-Line Text"
+        }
+      ]
+    },
+    {
+      "name": "POCcomponentSitecore",
+      "icon": "Office/16x16/document_tag.png",
+      "fields": [
+        {
+          "name": "Title",
+          "type": "Single-Line Text"
+        },
+        {
+          "name": "Description",
+          "type": "Rich Text"
+        },
+        {
+          "name": "Image",
+          "type": "Image"
+        },
+        {
+          "name": "CtaLink",
+          "type": "General Link"
+        },
+        {
+          "name": "PublishedDate",
+          "type": "Datetime"
+        },
+        {
+          "name": "ShowBadge",
+          "type": "Checkbox"
+        },
+        {
+          "name": "Tags",
+          "type": "Treelist"
+        },
+        {
+          "name": "Category",
+          "type": "Single-Line Text"
+        }
+      ]
+    },
+    {
+      "name": "ContentBlock",
+      "icon": "Office/16x16/document_tag.png",
+      "fields": [
+        {
+          "name": "heading",
+          "type": "Single-Line Text"
+        },
+        {
+          "name": "content",
+          "type": "Rich Text"
+        }
+      ],
+      "allFields": [
+        {
+          "name": "heading",
+          "type": "Single-Line Text"
+        },
+        {
+          "name": "content",
+          "type": "Rich Text"
+        }
+      ]
+    },
+    {
+      "name": "GraphQL-IntegratedDemo",
+      "icon": "Office/16x16/graph_connection_directed.png",
+      "fields": [
+        {
+          "name": "sample1",
+          "type": "Single-Line Text"
+        },
+        {
+          "name": "sample2",
+          "type": "General Link"
+        }
+      ],
+      "allFields": [
+        {
+          "name": "sample1",
+          "type": "Single-Line Text"
+        },
+        {
+          "name": "sample2",
+          "type": "General Link"
+        }
+      ]
+    },
+    {
+      "name": "GraphQL-ConnectedDemo",
+      "icon": "Office/16x16/graph_connection_directed.png",
+      "fields": [
+        {
+          "name": "sample1",
+          "type": "Single-Line Text"
+        },
+        {
+          "name": "sample2",
+          "type": "General Link"
+        }
+      ],
+      "allFields": [
+        {
+          "name": "sample1",
+          "type": "Single-Line Text"
+        },
+        {
+          "name": "sample2",
+          "type": "General Link"
+        }
+      ]
+    }
+  ],
+  "placeholders": [
+    {
+      "name": "jss-main",
+      "displayName": "Main"
+    },
+    {
+      "name": "jss-tabs",
+      "displayName": "Tabs",
+      "id": "tabs-placeholder"
+    },
+    {
+      "name": "jss-graphql-layout"
+    }
+  ],
+  "appName": "nextjs-docker",
+  "language": "en",
+  "renderings": [
+    {
+      "name": "SitecoreSampleComponent",
+      "icon": "Office/16x16/document_tag.png",
+      "exposedPlaceholders": [],
+      "dataSourceTemplate": "SitecoreSampleComponent"
+    },
+    {
+      "name": "POCcomponentSitecoreTwo",
+      "icon": "Office/16x16/document_tag.png",
+      "exposedPlaceholders": [],
+      "dataSourceTemplate": "POCcomponentSitecoreTwo"
+    },
+    {
+      "name": "POCcomponentSitecore",
+      "icon": "Office/16x16/document_tag.png",
+      "exposedPlaceholders": [],
+      "dataSourceTemplate": "POCcomponentSitecore"
+    },
+    {
+      "name": "ContentBlock",
+      "icon": "Office/16x16/document_tag.png",
+      "exposedPlaceholders": [],
+      "dataSourceTemplate": "ContentBlock"
+    },
+    {
+      "name": "GraphQL-Layout",
+      "icon": "Office/16x16/layout.png",
+      "exposedPlaceholders": [
+        "jss-graphql-layout"
+      ],
+      "dataSourceTemplate": ""
+    },
+    {
+      "name": "GraphQL-IntegratedDemo",
+      "icon": "Office/16x16/graph_connection_directed.png",
+      "graphQLQuery": "# This file contains a GraphQL query that will be executed and the result provided to\r\n# your JSS component. You can run this query in GraphiQL ($endpoint/ui) for a nice editing experience.\r\n\r\n# Note that we're executing _two queries_ (datasource and contextItem)\r\n# within the context of the IntegratedDemoQuery _operation_. This makes it\r\n# very efficient at gathering data from multiple sources.\r\n\r\nquery IntegratedDemoQuery($datasource: String!, $contextItem: String!, $language: String!) {\r\n  # Datasource query\r\n  # $datasource will always be set to the ID of the rendering's datasource item\r\n  # (as long as the GraphQLData helper is used)\r\n  datasource: item(path: $datasource, language: $language) {\r\n    id\r\n    name\r\n    # Strongly-typed querying on known templates is possible!\r\n    ... on GraphQLIntegratedDemo {\r\n      # Single-line text field\r\n      sample1 {\r\n        # the 'jsonValue' field is a JSON blob that represents the object that\r\n        # should be passed to JSS field rendering helpers (i.e. text, image, link)\r\n        jsonValue\r\n        value\r\n      }\r\n      # General Link field\r\n      sample2 {\r\n        jsonValue\r\n        # Structured querying of the field's values is possible\r\n        text\r\n        target\r\n        url\r\n        # Access to the template definition is possible\r\n        definition {\r\n          type\r\n          shared\r\n        }\r\n      }\r\n    }\r\n  }\r\n\r\n  # Context/route item query\r\n  # $contextItem will always be set to the ID of the current context item (the route item)\r\n  # (as long as the GraphQLData helper is used)\r\n  contextItem: item(path: $contextItem, language: $language) {\r\n    id\r\n    # Get the page title from the app route template\r\n    ... on AppRoute {\r\n      pageTitle {\r\n        value\r\n      }\r\n    }\r\n\r\n    # List the children of the current route\r\n    children(hasLayout: true) {\r\n      results {\r\n        id\r\n        # typing fragments can be used anywhere!\r\n        # so in this case, we're grabbing the 'pageTitle'\r\n        # field on all child route items.\r\n        ... on AppRoute {\r\n          pageTitle {\r\n            jsonValue\r\n            value\r\n          }\r\n        }\r\n        url {\r\n          path\r\n        }\r\n      }\r\n    }\r\n  }\r\n}\r\n",
+      "exposedPlaceholders": [],
+      "dataSourceTemplate": "GraphQL-IntegratedDemo"
+    },
+    {
+      "name": "GraphQL-ConnectedDemo",
+      "icon": "Office/16x16/graph_connection_directed.png",
+      "exposedPlaceholders": [],
+      "dataSourceTemplate": "GraphQL-ConnectedDemo"
+    }
+  ],
+  "wipeExisting": false,
+  "rootPlaceholders": [
+    "jss-main"
+  ]
+}
